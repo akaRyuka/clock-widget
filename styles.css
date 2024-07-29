@@ -1,0 +1,17 @@
+/* styles.css */
+
+.iframe-container {
+    width: 100%;
+    height: 100vh; /* or any desired height */
+    overflow: hidden;
+    position: relative;
+}
+
+.custom-iframe {
+    width: calc(100% - 20px); /* Adjust as necessary */
+    height: 100%;
+    margin-left: 0;
+    border: 0;
+    position: relative;
+    left: -20px; /* Negative value to reduce left margin */
+}
