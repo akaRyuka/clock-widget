@@ -2,7 +2,7 @@
 
 .iframe-container {
     width: 100%;
-    height: 100vh; /* or any desired height */
+    height: 100%; /* or any desired height */
     overflow: hidden;
     position: relative;
 }
@@ -13,5 +13,5 @@
     margin-left: 0;
     border: 0;
     position: relative;
-    left: -20px; /* Negative value to reduce left margin */
+    left: -50px; /* Negative value to reduce left margin */
 }
